@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @wear.brand %>
+</p>
+
+<p>
+  <strong>Element:</strong>
+  <%= @wear.element %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @wear.country %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @wear.quantity %>
+</p>
+
+<%= link_to 'Edit', edit_wear_path(@wear) %> |
+<%= link_to 'Back', wears_path %>
